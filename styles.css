@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #111827; /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.container {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.heading {
+  margin-bottom: 1.5rem; /* Equivalent to mb-6 with 1rem=16px approx. */
+  font-size: 2rem;       /* text-2xl */
+  font-weight: 700;      /* font-bold */
+  color: #ffffff;        /* text-white */
+  letter-spacing: -0.025em; /* tracking-tighter approximation */
+}
+
+.subheading { 
+  margin-bottom: 1.5rem; /* mb-6 */
+  font-weight: 600;      /* font-semibold */
+  color: #9CA3AF;        /* text-coolGray-300 approximation */
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
